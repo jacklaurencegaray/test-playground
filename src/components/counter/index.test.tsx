@@ -10,5 +10,7 @@ test("Counter: increment works", async () => {
 
   await waitForElement(() => getByTestId("counter-label"));
 
-  expect(await getByTestId("counter-label")).toHaveTextContent;
+  expect(await getByTestId("counter-label")).toHaveTextContent(
+    "You have clicked 1 times."
+  );
 });
