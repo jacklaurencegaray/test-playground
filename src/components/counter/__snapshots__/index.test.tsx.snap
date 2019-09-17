@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter: increment works: <p>You have clicked 5000 times.</p> 1`] = `
+<p
+  data-testid="counter-label"
+>
+  You have clicked 
+  1
+   times.
+</p>
+`;
